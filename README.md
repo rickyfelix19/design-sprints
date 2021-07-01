@@ -33,7 +33,7 @@ For later stages:
 ## Replicate <a name = "replicate"></a>
 
 Here are the list of websites that I replicate (it is separated into folders):
-1. [99designs Homepage](https://99designs.com.au/)
-2.
+1. [99designs Homepage](https://99designs.com.au/) -> too ambitious lol
+2. [Oculli](https://dribbble.com/shots/15731543-Oculii-Website/attachments/7534306?mode=media)
 3.
 ...
