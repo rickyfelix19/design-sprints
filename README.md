@@ -10,7 +10,9 @@ The idea of naming it **Design Sprints** is to showcase my ability in replicatin
 ## About <a name = "about"></a>
 
 This repo is to help me prepare for a Web Dev job interview to showcase my abilities in basic web development: HTML and CSS for brushing up my basic skills and CSS 
-This repo will be separated into multiple stages: Static (HTML and CSS) and Dynamic (JS)
+This repo will be separated into multiple stages: 
+- Static (HTML and CSS) 
+- and Dynamic (JS)
 
 ## Getting Started <a name = "getting_started"></a>
 
