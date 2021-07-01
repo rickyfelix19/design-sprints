@@ -17,6 +17,7 @@ This repo will be separated into multiple stages:
 ## Getting Started <a name = "getting_started"></a>
 
 Use ```flush.css``` to empty out css of a certain page
+NOTE: AVOID USING THIS
 
 ### Prerequisites
 
