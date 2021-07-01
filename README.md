@@ -14,7 +14,7 @@ This repo will be separated into multiple stages: Static (HTML and CSS) and Dyna
 
 ## Getting Started <a name = "getting_started"></a>
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See [deployment](#deployment) for notes on how to deploy the project on a live system.
+Use ```flush.css``` to empty out css of a certain page
 
 ### Prerequisites
 
@@ -33,3 +33,4 @@ Here are the list of websites that I replicate (it is separated into folders):
 1. [99designs Homepage](https://99designs.com.au/)
 2.
 3.
+...
