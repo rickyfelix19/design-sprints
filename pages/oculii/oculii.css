@@ -1,5 +1,8 @@
-/* gradient - source: https://cssgradient.io/ */ 
-.banner {
+/* 
+    gradient layouts:
+    source :gradient - source: https://cssgradient.io/ 
+*/ 
+.banner { 
     background: rgb(131,58,180);
     background: -moz-linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(128,121,180,1) 35%, rgba(126,133,175,1) 48%, rgba(252,176,69,1) 100%);
     background: -webkit-linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(128,121,180,1) 35%, rgba(126,133,175,1) 48%, rgba(252,176,69,1) 100%);
@@ -15,6 +18,39 @@
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#3fc1fb",endColorstr="#ffedd5",GradientType=1); 
 }
 
-.submit{
-    
+.submit {
+    background: rgb(70,58,180);
+    background: -moz-linear-gradient(90deg, rgba(70,58,180,1) 0%, rgba(121,150,180,1) 35%, rgba(156,126,175,1) 48%);
+    background: -webkit-linear-gradient(90deg, rgba(70,58,180,1) 0%, rgba(121,150,180,1) 35%, rgba(156,126,175,1) 48%);
+    background: linear-gradient(90deg, rgba(70,58,180,1) 0%, rgba(121,150,180,1) 35%, rgba(156,126,175,1) 48%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#463ab4",endColorstr="#9c7eaf",GradientType=1); 
+}
+
+/* Navigation Page */
+
+.nav {
+    width: 100px;
+    height: 100px;
+    display:inline-block;
+    vertical-align:top;
+}
+
+.logo-nav {
+    display: inline-block;
+    vertical-align: top;
+    width: 46px;
+    height: 80px;
+    margin-right: 20px;
+    margin-top: 15px;
+    /* border-radius: 50%; */
+    /* overflow: hidden; */
+    /* margin-top: -6px; */
+}
+
+.nav > a {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 20px;
+    height: 80px;
+    line-height: 80px;
 }
