@@ -1,25 +1,3 @@
-
-
-        <!-- main -->
-        <main>
-            <div> <!-- Left Hero -->
-                <h4>POTENTIAL OF RADAR</h4>
-                <h3>Limitations of Traditional Radar</h3>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dapibus ultrices in iaculis nunc sed augue lacus viverra vitae. Sit amet nisl suscipit adipiscing bibendum est. Egestas pretium aenean pharetra magna. Vitae congue mauris rhoncus aenean vel.
-                </p>
-                <button type="button">Learn more</button>
-            </div>
-
-            <div> <!-- Right Hero -->
-                <h4>UP TO BOX</h4>
-                <h3>Oculii's Virtual Aperture Imaging Technology</h3>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dapibus ultrices in iaculis nunc sed augue lacus viverra vitae. Sit amet nisl suscipit adipiscing bibendum est. Egestas pretium aenean pharetra magna. Vitae congue mauris rhoncus aenean vel.
-                </p>
-                <button type="button">Learn more</button>
-            </div>
-
             <blockquote class="quote"> <!-- testimony -->
                     <div>
                         <h4>Techcrunch</h4>

@@ -60,6 +60,7 @@ body {
     source :gradient - source: https://cssgradient.io/ 
     */
     padding: 50px;
+    border-radius: 50px;\\;
 }
 
 /* #banner-txt { */
@@ -144,6 +145,10 @@ body {
     /* margin-left: auto;
     margin-right: auto; */
 }
+
+/* Products */
+
+
 
 /* re-use CSS classes */
 
