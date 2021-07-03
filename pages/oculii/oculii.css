@@ -1,14 +1,118 @@
-/* 
-    gradient layouts:
-    source :gradient - source: https://cssgradient.io/ 
-*/ 
-.banner { 
+/* Body and Background */
+html {
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    /* margin-top: 15px; */
+}
+
+body {
+    margin: 20px 35px 20px;
+}
+
+
+/* Navigation Page */
+
+.navigation {
+    width: 100%;  /* i'm assuming full width */
+    height: 80px; /* change it to desired width */
+    background-color: white; /* change to desired color */
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 20zpx;
+}
+
+.left-nav {
+    /* display: inline-block; */
+    vertical-align: top;
+    width: 200px;
+    height: 55px;
+    float: left;    /* always on the left side */
+    margin-right: -35px;
+}
+
+.right-nav {
+    /* display: inline-block; */
+    vertical-align: top;
+    height: 80px;        /* if you want it to take the full height of the bar */
+    line-height: 80px;    /* if you want it vertically middle of the navbar */
+    word-spacing: 45px;
+    float: right;    /* always on the right side */
+    margin-right: 35px;
+}
+
+.right-nav > a{
+    text-decoration: none;
+    color: black;
+}
+
+/* Top - Banner */
+
+.banner{ 
     background: rgb(131,58,180);
     background: -moz-linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(128,121,180,1) 35%, rgba(126,133,175,1) 48%, rgba(252,176,69,1) 100%);
     background: -webkit-linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(128,121,180,1) 35%, rgba(126,133,175,1) 48%, rgba(252,176,69,1) 100%);
     background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(128,121,180,1) 35%, rgba(126,133,175,1) 48%, rgba(252,176,69,1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#833ab4",endColorstr="#fcb045",GradientType=1); 
+    /* 
+    gradient layouts:
+    source :gradient - source: https://cssgradient.io/ 
+    */
+    padding: 50px;
 }
+
+/* #banner-txt { */
+    /* margin: 0px 50px 0px; */
+    /* padding: 50px 40px 50px; */
+/* } */
+
+#top-banner {
+    color:white;
+    background: rgba(46, 49, 49, 0.8);
+    /* background-color: white; */
+    /* opacity: 0.5; */
+    padding: 8px;
+    text-transform: uppercase;
+    /* margin-left: 50px; */
+}
+
+.banner > h1 {
+    font-size: 52px;
+}
+
+#text-banner { 
+    width: 450px;
+    font-size: 22px;
+    word-spacing: 10px;
+}
+
+.button-cot {
+    padding: 15px;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 50px;
+    border: none;
+    background-color: darkblue;
+    color: white;
+}
+
+#img-banner {
+    width: 0%;
+} 
+
+.sponsors {
+    margin: 20px;
+}
+
+#img-sponsors {
+
+}
+
+
+/* re-use CSS classes */
 
 .quote {
     background: rgb(63,193,251);
@@ -16,41 +120,22 @@
     background: -webkit-radial-gradient(circle, rgba(63,193,251,1) 0%, rgba(255,237,213,1) 100%);
     background: radial-gradient(circle, rgba(63,193,251,1) 0%, rgba(255,237,213,1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#3fc1fb",endColorstr="#ffedd5",GradientType=1); 
+    /* 
+    gradient layouts:
+    source :gradient - source: https://cssgradient.io/ 
+    */ 
+
 }
 
-.submit {
+.small-banner {
     background: rgb(70,58,180);
     background: -moz-linear-gradient(90deg, rgba(70,58,180,1) 0%, rgba(121,150,180,1) 35%, rgba(156,126,175,1) 48%);
     background: -webkit-linear-gradient(90deg, rgba(70,58,180,1) 0%, rgba(121,150,180,1) 35%, rgba(156,126,175,1) 48%);
     background: linear-gradient(90deg, rgba(70,58,180,1) 0%, rgba(121,150,180,1) 35%, rgba(156,126,175,1) 48%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#463ab4",endColorstr="#9c7eaf",GradientType=1); 
-}
+    /* 
+    gradient layouts:
+    source :gradient - source: https://cssgradient.io/ 
+    */
 
-/* Navigation Page */
-
-.nav {
-    width: 100px;
-    height: 100px;
-    display:inline-block;
-    vertical-align:top;
-}
-
-.logo-nav {
-    display: inline-block;
-    vertical-align: top;
-    width: 46px;
-    height: 80px;
-    margin-right: 20px;
-    margin-top: 15px;
-    /* border-radius: 50%; */
-    /* overflow: hidden; */
-    /* margin-top: -6px; */
-}
-
-.nav > a {
-    display: inline-block;
-    vertical-align: top;
-    margin-right: 20px;
-    height: 80px;
-    line-height: 80px;
 }
