@@ -100,17 +100,50 @@ body {
 }
 
 #img-banner {
-    width: 0%;
+    width: 0%; 
 } 
 
-.sponsors {
-    margin: 20px;
+.container {
+    display: block;
+    text-align: center;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    /* text-decoration: none;
+    color: grey;
+    font-size: 18px; */
 }
 
-#img-sponsors {
+.container a {
+    text-decoration: none;
+    color: grey;
+    font-size: 18px;
+} 
 
+/* .sponsors{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
 }
+*/
 
+.sponsors img {
+    /* align-items: center;
+    text-align: center; */
+    /* justify-content: center; */
+    width: 200px;
+    height: 200px;
+    /* padding: 10px; */
+    margin: 30px;
+    /* width: 100px; */
+    /* display: inline-block; */
+    /* float: left; */
+    /* margin-left: 20px; */
+    /* margin-left: auto;
+    margin-right: auto; */
+}
 
 /* re-use CSS classes */
 
