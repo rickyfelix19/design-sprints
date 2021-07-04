@@ -1,91 +1,74 @@
+    <div> <!-- Products -->
+        <div> <!-- Left Main -->
+            <h3>Falcon</h3>
+            <p>This version is better than the other one</p>
+            <h3>20 Times</h3>
+            <p>performance more effective than before</p>
+            
+            <div>
 
-
-            <div> <!-- Products -->
-                <div> <!-- Left Main -->
-                    <h3>Falcon</h3>
-                    <p>This version is better than the other one</p>
-                    <h3>20 Times</h3>
-                    <p>performance more effective than before</p>
-                    
-                    <div>
-
-                        <div> <!-- left box-->
-                            <h4>
-                                Azimuth
-                                2.0"
-                            </h4>
-                            <h4>
-                                Elevation
-                                5.0'
-                            </h4>
-                        </div>
-
-                        <div> <!-- right box-->
-                            <h4>
-                                Azimuth
-                                0.5`
-                            </h4>
-                            <h4>
-                                Elevation
-                                1.0"
-                            </h4>
-                        </div>
-                        
-                        <ul>
-                            <li> 200M range</li>
-                            <li> 120' Azimuth field of view</li>
-                            <li> 30' Elevation field of view</li>
-                            <li> 2.5 watts power consumption</li>
-                        </ul>
-                        <button type="button">Learn more</button>
-                    </div>
+                <div> <!-- left box-->
+                    <h4>
+                        Azimuth
+                        2.0"
+                    </h4>
+                    <h4>
+                        Elevation
+                        5.0'
+                    </h4>
                 </div>
 
-                <div> <!-- Right Main -->
-                    <h3>Eagle</h3>
-                    <p>This version is better than the other one</p>
-                    <h3>50 Times</h3>
-                    <p>performance more sufficient than before</p>
-                    
-                    <div>
-                        <div> <!-- left box -->
-                            <h4>
-                                Azimuth
-                                2.0"
-                            </h4>
-                            <h4>
-                                Elevation
-                                5.0'
-                            </h4>
-                        </div>
-
-                        <div> <!-- right box -->
-                            <h4>
-                                Azimuth
-                                0.5`
-                            </h4>
-                            <h4>
-                                Elevation
-                                1.0"
-                            </h4>
-                        </div>
-                        
-                    </div>
+                <div> <!-- right box-->
+                    <h4>
+                        Azimuth
+                        0.5`
+                    </h4>
+                    <h4>
+                        Elevation
+                        1.0"
+                    </h4>
                 </div>
+                
+                <ul>
+                    <li> 200M range</li>
+                    <li> 120' Azimuth field of view</li>
+                    <li> 30' Elevation field of view</li>
+                    <li> 2.5 watts power consumption</li>
+                </ul>
+                <button type="button">Learn more</button>
             </div>
-        </main>
+        </div>
 
-        <footer>
-            <div class="quote"> <!-- Connect and Learn More -->
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dapibus ultrices in iaculis nunc sed augue lacus viverra vitae. Sit amet nisl suscipit adipiscing bibendum est. Egestas pretium aenean pharetra magna. Vitae congue mauris rhoncus aenean vel.</p>
-                <form>
-                    <input type="text" name="fname" id="fname">
-                    <label for="fname">Full Name</label><br>
-                    <input type="email" name="email" id="email">
-                    <label for="email">Email</label><br>
-                    <input type="text" name="message" id="message">
-                    <label for="message">Message</label><br>
-                    <button type="submit" class="submit">Send</button>
-                </form>
+        <div> <!-- Right Main -->
+            <h3>Eagle</h3>
+            <p>This version is better than the other one</p>
+            <h3>50 Times</h3>
+            <p>performance more sufficient than before</p>
+            
+            <div>
+                <div> <!-- left box -->
+                    <h4>
+                        Azimuth
+                        2.0"
+                    </h4>
+                    <h4>
+                        Elevation
+                        5.0'
+                    </h4>
+                </div>
+
+                <div> <!-- right box -->
+                    <h4>
+                        Azimuth
+                        0.5`
+                    </h4>
+                    <h4>
+                        Elevation
+                        1.0"
+                    </h4>
+                </div>
+                
             </div>
-        </footer>
+        </div>
+    </div>
+</main>
