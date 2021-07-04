@@ -10,7 +10,39 @@ html {
 body {
     margin: 20px 35px 20px;
 }
+/* 
+a {
+    text-decoration: none;
+} */
 
+h1 {
+    font-size: 52px;
+}
+
+h3 {
+    font-size: 32px;
+}
+
+h4 {
+    font-size: 24px;
+}
+
+p, a {
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.button-cot { /* call to action button */
+    padding: 15px;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 50px;
+    border: none;
+    background-color: darkblue;
+    color: white;
+}
 
 /* Navigation Page */
 
@@ -43,7 +75,7 @@ body {
 }
 
 .right-nav > a{
-    text-decoration: none;
+    /* text-decoration: none; */
     color: black;
 }
 
@@ -78,26 +110,14 @@ body {
     /* margin-left: 50px; */
 }
 
-.banner > h1 {
+/* .banner > h1 {
     font-size: 52px;
-}
+} */
 
 #text-banner { 
     width: 450px;
     font-size: 22px;
     word-spacing: 10px;
-}
-
-.button-cot {
-    padding: 15px;
-    font-size: 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    border-radius: 50px;
-    border: none;
-    background-color: darkblue;
-    color: white;
 }
 
 #img-banner {
@@ -117,7 +137,7 @@ body {
 }
 
 .container a {
-    text-decoration: none;
+    /* text-decoration: none; */
     color: grey;
     font-size: 18px;
 } 
@@ -185,7 +205,13 @@ body {
     gradient layouts:
     source :gradient - source: https://cssgradient.io/ 
     */ 
-    
+    padding: 50px 200px 50px;
+    border-radius: 50px;   
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
 }
 
 /* re-use CSS classes */
@@ -200,5 +226,6 @@ body {
     gradient layouts:
     source :gradient - source: https://cssgradient.io/ 
     */
-
+    padding: 30px;
+    border-radius: 50px;
 }
