@@ -60,7 +60,7 @@ body {
     source :gradient - source: https://cssgradient.io/ 
     */
     padding: 50px;
-    border-radius: 50px;\\;
+    border-radius: 50px;
 }
 
 /* #banner-txt { */
@@ -147,10 +147,33 @@ body {
 }
 
 /* Products */
+.product { 
+    display: flex;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-top: 100px;
+}
 
+#product-left img {
+    padding: 8px;
+    margin: 20px 100px 20px 400px;
+    float: right;
+}
 
+#product-right img {
+    padding: 8px;
+    margin: 20px 400px 100px 20px;
+    float: left;
+}
 
-/* re-use CSS classes */
+.text-product {
+    /* float: right; */
+    /* width: 300px; */
+    font-size: 22px;
+    word-spacing: 10px;
+}
 
 .quote {
     background: rgb(63,193,251);
@@ -162,8 +185,10 @@ body {
     gradient layouts:
     source :gradient - source: https://cssgradient.io/ 
     */ 
-
+    
 }
+
+/* re-use CSS classes */
 
 .small-banner {
     background: rgb(70,58,180);
