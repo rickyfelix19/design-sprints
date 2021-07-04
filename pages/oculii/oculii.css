@@ -10,10 +10,8 @@ html {
 body {
     margin: 20px 35px 20px;
 }
-/* 
-a {
-    text-decoration: none;
-} */
+
+/* a { text-decoration: none;} */
 
 h1 {
     font-size: 52px;
@@ -212,6 +210,43 @@ p, a {
     justify-content: center;
     align-items: center;
     align-content: center;
+}
+
+.footer, .submit {
+    display: inline;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.footer > form > input {
+    /* padding: 30px 250px 30px; */
+    padding: 8px;
+    margin-top: 15px;
+    width: 900px;
+    height: 80px;
+    border-radius: 20px;   
+}
+
+.text-footer{
+    display: inline;
+    font-size: 25px;
+    margin: 500px
+}
+
+.submit { /* call to action button */
+    padding: 8px;
+    width: 400px;
+    height: 50px;
+    margin-top: 20px;
+    font-size: 20px;
+    text-decoration: none;
+    border-radius: 20px;
+    border: none;
+    background-color: darkblue;
+    color: white;
+    box-shadow: none;
 }
 
 /* re-use CSS classes */
