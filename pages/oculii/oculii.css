@@ -50,23 +50,26 @@ p, a {
     background-color: white; /* change to desired color */
     display: inline-block;
     vertical-align: top;
-    margin-top: 20zpx;
+    margin-top: 20px;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
 }
 
 .left-nav {
-    /* display: inline-block; */
-    vertical-align: top;
+    /* display: inline; */
+    /* vertical-align: top; */
     width: 200px;
     height: 55px;
     float: left;    /* always on the left side */
-    margin-right: -35px;
+    margin-left: 35px;
 }
 
 .right-nav {
-    /* display: inline-block; */
-    vertical-align: top;
-    height: 80px;        /* if you want it to take the full height of the bar */
-    line-height: 80px;    /* if you want it vertically middle of the navbar */
+    /* display: inline; */
+    /* vertical-align: top; */
+    height: 40px;        /* if you want it to take the full height of the bar */
+    line-height: 40px;    /* if you want it vertically middle of the navbar */
     word-spacing: 45px;
     float: right;    /* always on the right side */
     margin-right: 35px;
@@ -210,6 +213,7 @@ p, a {
     justify-content: center;
     align-items: center;
     align-content: center;
+    margin-top: 100px;
 }
 
 .footer, .submit {
@@ -225,7 +229,7 @@ p, a {
     padding: 8px;
     margin-top: 15px;
     width: 900px;
-    height: 80px;
+    height: 50px;
     border-radius: 20px;   
 }
 
