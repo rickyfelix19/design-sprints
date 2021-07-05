@@ -26,7 +26,7 @@ This repo requires me to know:
 - CSS (Bootstrap preferably)
 - Git
 
-For later stages:
+For later stages:v
 - JSON / XML / SQL 
 - JS (Basic DOM Manipulation)
 
@@ -35,7 +35,7 @@ For later stages:
 Here are the list of websites that I replicate (it is separated into folders):
 1. [99designs Homepage](https://99designs.com.au/) -> too ambitious lol
 2. [Oculli](https://dribbble.com/shots/15731543-Oculii-Website/attachments/7534306?mode=media)
-3. [Lumin Hompage](https://www.luminskin.com/) -> next project
-4. [Eve V Hompage](https://evedevices.com/)
+3. [Lumin Hompage](https://www.luminskin.com/) 
+4. [Eve V Hompage](https://evedevices.com/) -> next project
 5. [Eve V Mouse Pads](https://evedevices.com/products/eve-mousemat/)
 ...
