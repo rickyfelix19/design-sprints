@@ -13,7 +13,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- CSS Bootstrap 5-->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">        
-        <link rel="stylesheet" href="./eve-v-homepage.css">        <!-- local CSS -->
+        <!-- local CSS -->
+        <link rel="stylesheet" href="./eve-v-homepage.css">
     </head>
     <body>
         <!--[if lt IE 7]>
@@ -21,63 +22,52 @@
         <![endif]-->
 
         <div class="container">
-            <nav class="nav navbar navbar-expand-lg">         <!-- navigation -->
-                <div class="container-md">
+            <nav class="nav navbar navbar-expand-lg navbar-text navigation">         <!-- navigation -->
+                <div class="container-fluid">
+                    <a class="navbar-brand navigation__logo" href="./eve-v-homepage.html">
+                        <img src="" alt="eve-logo" width="30" heigh="25" >
+                    </a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                        <a class="navbar-brand" href="#">
-                            <img src="" alt="eve-logo" width="30" heigh="25">
-                        </a>
-                        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                            <li class="nav-item active">
-                                <a class="nav-link" href="#">Spectrum <span class="sr-only">(current)</span></a>
+                    <div class="collapse navbar-collapse navigation__left" id="navbarNavDropdown">
+                        <div class="navbar-nav">
+                            <a class="nav-link active" aria-current="page" href="#">Spectrum</a>
+                            <a class="nav-link" href="#">V</a>
+                            <a class="nav-link" href="#">Mouse Pads</a>
+                            <a class="nav-link" href="#">Community</a>
+                            <a class="nav-link" href="#">About</a>
+                            <a class="nav-link" href="#">Support</a>
+                        </div>
+                    </div>
+                    <div class= "nav navbar navbar-text navigation__right">
+                        <ul class="navbar-nav">
+                            <li class="nav-item" style="pointer-events: none;"> | </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Choose a language:
+                                </a> 
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="#">INTL-en</a></li>
+                                    <li><a class="dropdown-item" href="#">English Australia</a></li>
+                                    <li><a class="dropdown-item" href="#">Chinese Simplified</a></li>
+                                    <li><a class="dropdown-item" href="#">Indonesia</a></li>
+                                </ul>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">V</a>
-                            </li>
-                            <li class="nav navbar-nav navbarnav navbar-nav -right">
-                                <a class="nav-link" href="#">Mouse Pads</a>
+                                <a class="nav-link" href="#">Profile</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Community</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">About</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Support</a>
+                                <a class="nav-link" href="#">Shopping Cart</a>
                             </li>
                         </ul>
                     </div>
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            |
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Choose a Language</a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">INTL-en</a></li>
-                                <li><a class="dropdown-item" href="#">English Australia</a></li>
-                                <li><a class="dropdown-item" href="#">Chinese Simplified</a></li>
-                                <li><a class="dropdown-item" href="#">Indonesia</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Profile</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Shopping Cart</a>
-                        </li>
-                    </ul>
                 </div>
             </nav>
         </div>
-
-        <h1>testing</h1>
-
-        <main>         <!-- navigation -->
+        
+        <main>         
+            <h1>testing</h1>
 
         </main>
 
@@ -85,9 +75,12 @@
 
         </footer>
         
-        <!-- javascript  -->
-        <script src="./eve-v-homepage.js" async defer></script>   <!-- local JS -->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <!--  
+            Javascript  Bootstrap 5 with Popper 
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+            local JS 
+            <script src="./eve-v-homepage.js" async defer crossorigin="anonymous"></script>
+        -->
 
     </body>
 </html>
