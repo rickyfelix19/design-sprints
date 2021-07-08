@@ -18,14 +18,9 @@ html {
     /* margin-top: 15px; */
 }
  
- main {
+ body {
     margin: 20px 35px 20px;
-    background: black;
-}
-
-a { 
-    text-decoration: none;
-    /* color: white; */
+    /* background: black; */
 }
 
 h1 {
@@ -43,6 +38,12 @@ h4 {
 p, a, ul, ol, li {
     font-size: 18px;
     text-decoration: none;
+}
+
+.btn__cot {
+    background-color: darkorange;
+    color: white;
+    text-transform: uppercase;
 }
 
  /* Navigation Page  */
