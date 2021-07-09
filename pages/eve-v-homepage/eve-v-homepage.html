@@ -11,59 +11,75 @@
         <meta name="author" content="Ricky Felix">
         <meta name="description" content="Eve - developed in the crowd">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <!-- CSS Bootstrap 5-->
+        <!-- CSS Bootstrap 5 -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">        
         <!-- local CSS -->
         <link rel="stylesheet" href="./eve-v-homepage.css">
+        <!-- CSS Bootstrap 5 - Icons -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
     </head>
     <body>
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
-        <div class="container text-decoration-none">
-            <nav class="nav navbar navbar-expand-lg navbar-text navigation">         <!-- navigation -->
+        <div class="text-decoration-none">
+            <nav class="navbar navbar-text navbar-expand-lg navbar-light bg-light"> <!-- navigation -->
                 <div class="container-fluid">
-                    <a class="navbar-brand navigation__logo" href="./eve-v-homepage.html">
+                    <a class="navbar-brand" href="./eve-v-homepage.html">
                         <img src="" alt="eve-logo" width="30" heigh="25" >
                     </a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse navigation__left" id="navbarNavDropdown">
-                        <div class="navbar-nav">
-                            <a class="nav-link active" aria-current="page" href="#">Spectrum</a>
-                            <a class="nav-link" href="#">V</a>
-                            <a class="nav-link" href="#">Mouse Pads</a>
-                            <a class="nav-link" href="#">Community</a>
-                            <a class="nav-link" href="#">About</a>
-                            <a class="nav-link" href="#">Support</a>
-                        </div>
-                    </div>
-                    <div class= "nav navbar navbar-text navigation__right">
-                        <ul class="navbar-nav">
-                            <li class="nav-item" style="pointer-events: none;"> | </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    Choose a language:
-                                </a> 
-                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <li><a class="dropdown-item" href="#">INTL-en</a></li>
-                                    <li><a class="dropdown-item" href="#">English Australia</a></li>
-                                    <li><a class="dropdown-item" href="#">Chinese Simplified</a></li>
-                                    <li><a class="dropdown-item" href="#">Indonesia</a></li>
-                                </ul>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Profile</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Shopping Cart</a>
-                            </li>
-                        </ul>
-                    </div>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse justify-content-lg-end" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Spectrum</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">V</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Mouse Pads</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Community</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Support</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="nav justify-content-lg-end">
+                      <ul class="navbar-nav">
+                        <li class="nav-item" style="pointer-events: none;">
+                            <a class="nav-link" href="#" > | </a>
+                        </li>
+                        <li class="nav-item">
+                            <select class="form-select form-select-sm selectpicker">
+                                <!-- dropdown not working -->
+                                <option selected data-content="International-English">INTL</option>
+                                <option data-content="English-Australia">EN-AUS</option>
+                                <option data-content="Indonesia-Indonesia">ID-ID</option>
+                                <option data-content="Chinese (Mandarin)">ZH</option>
+                            </select>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link bi bi-person" href="#" alt="profile"></a>
+                          <!-- <i class="bi bi-person"></i> -->
+                        </li>
+                        <li class="nav-item">
+                            <!-- <i class="bi bi-bag"></i> -->
+                            <a class="nav-link bi bi-bag" href="#" alt="shopping-cart"></a>
+                        </li>
+                    </ul>
+                  </div>
                 </div>
-            </nav>
+              </nav>
         </div>
 
         <div class ="container">
@@ -78,7 +94,7 @@
             </section>
         </div>
         
-        <main>
+        <main>  
             <div class= "container">
                 <section class ="container-fluid"> <!-- sponsors -->
                     <img src="" alt="wired-logo">
@@ -91,7 +107,7 @@
 
                 <section class="container-fluid"> <!-- V, 2-in-1 laptop -->
                     <article>
-                        <h1>V</h1>
+                        <h1 class="text-uppercase">V</h1>
                         <p>The most versatile 2-in-1 developed by 2403 entrepreneurs, designers, and coders</p>
                         <a href="#" class="btn btn__cot" role="button" data-bs-toggle="button">pre-order</a>
                     </article>
@@ -99,7 +115,7 @@
 
                 <section class="container-fluid"> <!-- mouse pads -->
                     <article>
-                        <h1>mouse pads</h1>
+                        <h1 class="text-uppercase">mouse pads</h1>
                         <p>Transform your desk with our high-quality, durable mouse pads featuring Eve's subtle branding</p>
                         <a href="#" class="btn btn__cot" role="button" data-bs-toggle="button">order now</a>
                     </article>
@@ -107,7 +123,7 @@
             </div>
 
             <div class="container">
-                <h3>always first</h3>
+                <h3 class="text-uppercase">always first</h3>
                 ___
                 <p>Sign up for our newsletter</p>
                 <div class="form-group">

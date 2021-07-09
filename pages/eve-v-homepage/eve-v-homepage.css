@@ -18,11 +18,7 @@ html {
     /* margin-top: 15px; */
 }
  
-main {
-    margin: 20px 35px 20px;
-    /* background: black; */
-}
-
+/* 
 h1 {
     font-size: 52px;
 }
@@ -38,7 +34,7 @@ h4 {
 p, a, ul, ol, li {
     font-size: 18px;
     text-decoration: none;
-}
+} */
 
 .btn__cot {
     background-color: darkorange;
@@ -71,7 +67,7 @@ p, a, ul, ol, li {
     word-spacing: 1px;
 }
 
-.navigation__left, .navigation__right {   
+.navigation__right {   
     /* line-height: 40px;    */
     word-spacing: 1px;
     float: right;
